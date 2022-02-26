@@ -25,3 +25,7 @@ print(val1)
 val1.remove(3) # Remove elements in array
 print(val1)
 print(val1[2]) # print directly elements from array
+
+# loops with array
+for i in val1:
+    print(i, end=" ")
