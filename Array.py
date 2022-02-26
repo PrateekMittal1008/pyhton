@@ -12,5 +12,3 @@ print(val1)
 print(val1.buffer_info())# Returns the address and size of array 
 cont = val1.count(7) # count number of type value returned
 print(cont)
-val1.copy(val2) # copy the e
-print(val2)
