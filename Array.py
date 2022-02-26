@@ -12,3 +12,5 @@ print(val1)
 print(val1.buffer_info())# Returns the address and size of array 
 cont = val1.count(7) # count number of type value returned
 print(cont)
+ind = val1.index(7)
+print(ind)
