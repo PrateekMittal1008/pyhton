@@ -43,7 +43,6 @@ else:
     while i <= x:
         print(val1[i], end=" ")
         i= i+1
-print("hello")
     
  
 
