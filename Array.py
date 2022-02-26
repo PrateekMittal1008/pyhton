@@ -37,12 +37,12 @@ print("")
 i=0
 x =input("enter the value ")
 x =int(x)
-if x<=14:
-    break
+if x > 14:
+    print("Not valid value")
 else:
     while i <= x:
         print(val1[i], end=" ")
-     i= i+1
+        i= i+1
     
  
 
