@@ -31,4 +31,8 @@ for i in val1:     # printing all elements in val1
     print(i, end=" ")
     if(i==45):
         break     # break loop at 45
+ #trying for input from user
+ result = eval(input("Enter the elements"))
+ print(result)
+
  
