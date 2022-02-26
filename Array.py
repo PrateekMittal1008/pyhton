@@ -1,6 +1,7 @@
 #Array and thier functions
 #append, buffer info, clear, copy, count, extend, index,insert, pop, remove, reverse, sort
-from array import * # import all functions from array lib
+from array import *
+from re import X # import all functions from array lib
 val1 = array('i',[4,6,5,3,5,7])
 val2 = array('i',[4,5,7,8,4,7])
 print(val1)
@@ -34,7 +35,9 @@ for i in val1:     # printing all elements in val1
     
 print("")
 i=0
-while i <= 11:
+x =input("enter the value ")
+x =int(x)
+while i <= x:
     print(val1[i], end=" ")
     i= i+1
     
