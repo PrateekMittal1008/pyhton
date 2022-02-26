@@ -36,13 +36,14 @@ for i in val1:     # printing all elements in val1
 print("")
 i=0
 x =input("enter the value ")
-x =int(x)
+x =int(x) # sting to int conversion
 if x > 14:
     print("Not valid value")
 else:
     while i <= x:
         print(val1[i], end=" ")
         i= i+1
+print("hello")
     
  
 
