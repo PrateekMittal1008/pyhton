@@ -22,3 +22,5 @@ val1.reverse() # reverse the elements of string
 print(val1)
 val1.extend(val2) # extends element in 1st from 2nd
 print(val1)
+val1.remove(3) # Remove elements in array
+print(val1)
